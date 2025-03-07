@@ -16,7 +16,7 @@ const isAvailable = ref(true);
 const selectDate = ref("");
 </script>
 <template>
-  <div>
+  <div class="container">
     <!-- v-if v-show -->
     <h2>v-if v-show</h2>
     <button @click="isVisible = !isVisible">토글</button>
@@ -90,6 +90,7 @@ const selectDate = ref("");
       </p>
     </div>
   </div>
+  
 </template>
 <style scoped>
 .info {
