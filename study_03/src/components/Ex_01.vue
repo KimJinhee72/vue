@@ -39,8 +39,8 @@ const totalPrice = computed(() => price.value * quantity.value);
       </div>
       <div class="ex02">
         <p>가격 : {{ price }}원</p>
-        <button @click="price += 10">가격 + 10원 : </button>
-        <button @click="price -= 10":disabled="price <=0">가격 - 10원 : </button>
+        <button @click="price += 10">가격 + 10원 </button>
+        <button @click="price -= 10":disabled="price <=0">가격 - 10원</button>
         <hr>
         <p>수량 :  {{ quantity }} 개</p>
         <button @click="quantity += 1">수량 : +1</button>

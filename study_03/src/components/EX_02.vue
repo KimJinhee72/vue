@@ -29,8 +29,8 @@ const custmer = reactive({
   phone: "010-1234-5678",
 });
 const updateCustomer = () => {
-  return (custmer.name = "이영희");
-  return(custmer.phone = "010-9999-9999");
+  custmer.name = "이영희";
+  custmer.phone = "010-9999-9999";
 };
 // 5.남은 예약 가능 수 계산
 // 최대예약수
