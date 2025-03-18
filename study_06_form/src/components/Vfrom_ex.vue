@@ -87,6 +87,7 @@ const selectedHobbies = ref([])
       <option value="여행">여행</option>
     </select>
     <p>{{ selectedHobbies }}</p>
+    
   </div>
 </template>
 
