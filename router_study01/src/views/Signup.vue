@@ -1,6 +1,6 @@
 <template>
     <div>
-        홈
+        회원가입입니다.
     </div>
 </template>
 
@@ -11,4 +11,3 @@
 <style lang="scss" scoped>
 
 </style>
-

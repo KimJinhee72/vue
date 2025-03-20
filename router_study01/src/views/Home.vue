@@ -1,6 +1,6 @@
 <template>
     <div>
-        소개페이지
+        홈입니다.
     </div>
 </template>
 

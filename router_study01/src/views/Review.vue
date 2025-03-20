@@ -1,6 +1,6 @@
 <template>
     <div>
-        예약페이지
+        리뷰페이지입니다.
     </div>
 </template>
 
