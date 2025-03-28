@@ -1,0 +1,12 @@
+@use "./reset.css" as *;
+@use "./variables" as *;
+@use "./buttons" as *;
+@use "./Card" as *;
+@use "./modal" as *;
+*{
+     box-sizing: border-box;
+    }
+body{
+    font-family: $font-family;
+    background-color: $primary-color;
+}
