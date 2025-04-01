@@ -36,6 +36,7 @@ export default {//data를 const 처럼씀 그래서 name, age는 변수임
     }
   },
 };
+
 </script>
 
 <style>
